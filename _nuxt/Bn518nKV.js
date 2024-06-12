@@ -1,1 +1,0 @@
-import{_ as s,c as t,o as c,a as e}from"./D7_4g2Wj.js";const o={},n={class:"wrapper"},_=e("br",null,null,-1),a=e("h1",null,"Контакты",-1),r=[_,a];function l(d,i){return c(),t("div",n,r)}const h=s(o,[["render",l]]);export{h as default};
