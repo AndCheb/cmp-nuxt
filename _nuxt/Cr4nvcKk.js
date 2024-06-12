@@ -1,0 +1,1 @@
+import{_ as s,c as t,o,a as e}from"./g_owMzDS.js";const c={},n={class:"wrapper"},_=e("br",null,null,-1),r=e("h1",null,"Тарифы",-1),a=[_,r];function l(d,i){return o(),t("div",n,a)}const h=s(c,[["render",l]]);export{h as default};
