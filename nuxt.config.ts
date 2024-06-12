@@ -6,8 +6,4 @@ export default defineNuxtConfig({
     '@': resolve(__dirname, '/'),
   },
   css: ['~/scss/main.scss'],
-  target: 'static',
-  router: {
-    base: '/compas-app/',
-  },
 });
