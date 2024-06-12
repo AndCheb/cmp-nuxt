@@ -1,0 +1,76 @@
+.carousel__viewport {
+  max-width: 1135px;
+}
+
+.carousel__track.carousel__track {
+  column-gap: 35px;
+  margin-block: 10px;
+  padding-inline: 35px !important;
+  padding-right: 40px !important;
+  max-width: 1150px;
+}
+
+.carousel__slide {
+  align-items: start !important;
+  max-width: 340px;
+  min-height: 450px;
+}
+
+.carousel__pagination {
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+  padding-left: 17px;
+}
+
+.carousel__pagination-button {
+  margin-inline: 3px !important;
+  width: 7px;
+  height: 7px;
+  background-color: #d9d9d9 !important;
+  border-radius: 100%;
+
+  &::after {
+    display: none !important;
+  }
+}
+
+.carousel__pagination-button--active {
+  width: 10px;
+  height: 10px;
+  background-color: #007aff !important;
+}
+
+.carousel__next,
+.carousel__prev {
+  width: 40px !important;
+  height: 80px !important;
+}
+
+.carousel__prev {
+  background-image: url('~/assets/button-prev.svg') !important;
+
+  .carousel__icon {
+    display: none;
+  }
+}
+
+.carousel__next {
+  background-image: url('~/assets/button-next.svg') !important;
+
+  .carousel__icon {
+    display: none;
+  }
+}
+
+@media (max-width: 820px) {
+  .carousel__slide {
+    min-height: 350px;
+  }
+}
+
+@media (max-width: 675px) {
+  .carousel__slide {
+    max-width: 245px;
+  }
+}

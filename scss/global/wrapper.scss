@@ -1,0 +1,8 @@
+@import './vars.scss';
+
+.wrapper {
+  margin-inline: auto;
+  padding-inline: $wrapper-padding;
+  max-width: min($wrapper-width, 100%);
+  box-sizing: content-box;
+}

@@ -1,0 +1,13 @@
+.button {
+  padding: 9px 14px;
+  font-size: 15px;
+  color: var(--color-secondary);
+  background-color: var(--color-tertiary);
+  border-radius: 7px;
+  transition: color 0.2s ease, background 0.2s ease;
+}
+
+.button:hover {
+    color: var(--color-tertiary);
+    background-color: var(--color-secondary);
+}
