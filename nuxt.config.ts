@@ -6,4 +6,7 @@ export default defineNuxtConfig({
     '@': resolve(__dirname, '/'),
   },
   css: ['~/scss/main.scss'],
+  router: {
+    base: '/https://github.com/AndCheb/cmp-nuxt/'
+  },
 });
